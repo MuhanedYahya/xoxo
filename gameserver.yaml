@@ -33,7 +33,7 @@ spec:
       containers:
         - name: nodejs-simple
           # image: us-docker.pkg.dev/agones-images/examples/nodejs-simple-server:0.10
-          image: frostline/xoxo:deb
+          image: frostline/xoxo:sdk
           resources:
             requests:
               memory: 100Mi

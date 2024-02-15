@@ -24,6 +24,6 @@ RUN cd examples/nodejs-simple && \
     npm ci --production
 RUN chown -R server /home/server
 USER 1000
-EXPOSE 5000 9358/tcp 9358/udp
+EXPOSE 5000
 WORKDIR /home/server/examples/nodejs-simple
 ENTRYPOINT ["npm", "start", "--"]
